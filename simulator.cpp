@@ -1238,9 +1238,9 @@ void printSignals() {
 
 
 void begOutput(){
-    ofstream outputFile("Marios_UC1067054.txt");
+    ofstream outputFile("OUTPUT.txt");
     if (outputFile.is_open()) {
-            outputFile << "Name: Marios Bou-Mansour\nUniversity ID: UC1067054\n\n";
+            outputFile << "Name: Your_Name\n\n";
             outputFile.close();
         }
         else { cout<<"Error output.txt not Found" << endl; }
